@@ -15,6 +15,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@zendeskgarden/tailwindcss")],
 };
 export default config;
